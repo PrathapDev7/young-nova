@@ -1852,12 +1852,12 @@ ul {
   }
   .banner_part .canva-wrapper {
     position: absolute;
-    top: 0;
+    top: 100px;
     z-index: 99;
+    left: -20px;
   }
   .banner_part .canva-wrapper canvas {
     width: 400px !important;
-    left: -40px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1868,12 +1868,12 @@ ul {
   }
   .banner_part .canva-wrapper {
     position: absolute;
-    top: 0;
+    top: 100px;
     z-index: 99;
+    left: -10px;
   }
   .banner_part .canva-wrapper canvas {
     width: 500px !important;
-    left: -10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1884,12 +1884,12 @@ ul {
   }
   .banner_part .canva-wrapper {
     position: absolute;
-    top: 0;
+    top: 100px;
     z-index: 99;
+    left: 40px;
   }
   .banner_part .canva-wrapper canvas {
     width: 600px !important;
-    left: 40px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1200px) {

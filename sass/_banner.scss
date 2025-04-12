@@ -23,11 +23,12 @@
         background-color: #fef7f5;
         .canva-wrapper {
             position: absolute;
-            top: 0;
+            top: 100px;
             z-index: 99;
+            left: -20px;
             canvas {
                 width: 400px !important;
-                left: -40px;
+
             }
         }
     }
@@ -37,11 +38,12 @@
         background-color: #fef7f5;
         .canva-wrapper {
             position: absolute;
-            top: 0;
+            top:100px;
             z-index: 99;
+            left: -10px;
             canvas {
                 width: 500px !important;
-                left: -10px;
+
             }
         }
     }
@@ -51,11 +53,12 @@
         background-color: #fef7f5;
         .canva-wrapper {
             position: absolute;
-            top: 0;
+            top: 100px;
             z-index: 99;
+            left: 40px;
             canvas {
                 width: 600px !important;
-                left: 40px;
+
             }
         }
     }
