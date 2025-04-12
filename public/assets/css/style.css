@@ -1835,11 +1835,14 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.banner_part canvas {
-  width: 700px !important;
+.banner_part .canva-wrapper {
   position: relative;
-  left: -150px;
-  top: 100px;
+  z-index: 99;
+  top: 0;
+  left: -100px;
+}
+.banner_part .canva-wrapper canvas {
+  width: 700px !important;
 }
 @media (max-width: 576px) {
   .banner_part {
