@@ -1,6 +1,7 @@
 /**************** service_part css start ****************/
 .feature_part {
-   padding-top: 65px;
+   position: relative;
+   top: 110px;
    .single_feature_text {
       h2 {
          font-size: 42px;
@@ -77,8 +78,8 @@
       @media #{$medium_device} {
          margin-top: 25px;
       }
-      
-      
+
+
       span {
          margin-bottom: 30px;
          display: inline-block;
@@ -95,17 +96,17 @@
          @media #{$small_mobile} {
             margin-bottom: 25px;
          }
-   
+
          @media #{$large_mobile} {
             margin-bottom: 35px;
          }
-   
+
          @media #{$tab_device} {
             margin-bottom: 35px;
          }
-   
+
          @media #{$medium_device} {
-   
+
          }
          i{
             color: $icon_color;
@@ -120,17 +121,17 @@
          @media #{$small_mobile} {
             margin-bottom: 15px;
          }
-   
+
          @media #{$large_mobile} {
             margin-bottom: 15px;
          }
-   
+
          @media #{$tab_device} {
             margin-bottom: 15px;
          }
-   
+
          @media #{$medium_device} {
-   
+
          }
       }
 
@@ -141,19 +142,19 @@
       }
    }
    .single_feature{
-      &:hover{
+
          .single_feature_part{
             border: 1px solid $btn_bg;
          }
          span{
             @extend %custom_btn_bg_1;
             background-size: 200% auto;
-            
+
             i{
                color: $white_color;
             }
          }
-      }
+
    }
 }
 .single_feature_padding{

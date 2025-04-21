@@ -2,19 +2,8 @@
 .learning_part {
   position: relative;
   z-index: 99;
-  padding: 189px 0px 210px;
-  @media #{$small_mobile}{
-    padding: 70px 0px;
-  }
-  @media #{$large_mobile}{
-    padding: 70px 0px;
-  }
-  @media #{$tab_device}{
-    padding: 70px 0px;
-  }
-  @media #{$medium_device}{
-    padding: 70px 0px;
-  }
+  padding: 189px 0px 100px;
+
   .learning_img {
     @include background("../img/learning_img_bg.png");
     background-size: 70% 100%;
@@ -56,7 +45,7 @@
         padding: 0;
       }
       @media #{$medium_device}{
-      
+
       }
     }
   }
@@ -304,10 +293,10 @@
         padding: 0px;
       }
       @media #{$medium_device}{
-      
+
       }
     }
-   
+
   }
   .learning_member_text_iner{
     span{
@@ -334,7 +323,7 @@
         margin-bottom: 10px;
       }
       @media #{$medium_device}{
-      
+
       }
     }
     .ti-stamp{
@@ -354,7 +343,7 @@
         margin-bottom: 10px;
       }
       @media #{$medium_device}{
-      
+
       }
     }
   }
