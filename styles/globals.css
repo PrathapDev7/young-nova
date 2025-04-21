@@ -15,7 +15,7 @@ body {
   color-scheme: light;
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: #fff;
+  background-color: #fff !important;
 }
 
 body {
